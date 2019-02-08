@@ -8,7 +8,7 @@
     
     <meta name="author" content="Amber Beebe">
 
-    <title>Amber Beebe - Developer Portfolio</title>
+    <title>Amber Beebe - Professional Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -16,15 +16,13 @@
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132163137-1"></script>
     <script>
@@ -39,25 +37,24 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Amber Beebe</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto mr-auto">
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#highlight">Quick Facts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
               </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -67,24 +64,38 @@
       </div>
     </nav>
 
-    <header class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
+    <section class="masthead d-flex">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
-              <strong>Hello World.</strong>
+          <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mx-auto text-center">
+            <h1 id="title">
+              <strong>Amber Beebe</strong>
             </h1>
-            <hr>
           </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-bold mb-5">
-              I'm so happy you're here.
-            </p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Let's Meet</a>
+          <div id="about-lead" class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 mx-auto text-center">
+            <div class="row text-center">
+              <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <p>
+                    <i class="fa fa-quote-right"></i><br><br>
+                    If you haven't found it yet, keep looking.
+                    <br><br>
+                     - Steve Jobs<br>
+                    <hr>
+                  </p>
+              </div>
+              <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-xs-12 mx-auto">
+                  <img id="profile" src="img/profile.jpg" alt="me">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mx-auto text-center">
+              <a class="btn btn-lg btn-light js-scroll-trigger bounce" href="#about"><i class="fa fa-arrow-down text-secondary"></i></a>
           </div>
         </div>
       </div>
-    </header>
+    </section>
 
     <section class="bg-primary" id="about">
       <div class="container">
@@ -92,151 +103,72 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">Who am I?</h2>
             <hr class="light my-4">
-            <p class="text-faded text-left mb-4">
-              My name is Amber Beebe. My primary profession and passion is technology. I grew up and live in Northern California, but I love 
-              traveling the world, meeting new people, and seeing interesting places. <img id="profile" src="img/profile.jpg" alt="me"> Occasionally, I like to post content to my 
+            <p id="personal-lead" class="text-faded text-left mb-4 pl-2">
+              &nbsp;&nbsp;&nbsp;&nbsp;My name is Amber Beebe. My primary profession and passion is technology. I grew up and live in Northern California, but I love 
+              traveling the world, meeting new people, and seeing interesting places. Occasionally, I like to post content to my 
               blog, which contain my inner musings, tech opinions, and tutorials. Currently, I work as a Solutions Engineer 
               which allows me to primarily work with database technologies and interface directly with many intelligent people. Thank you for visiting!
-              
             </p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#highlight">Big Picture</a>
+            <a class="btn btn-xl btn-light js-scroll-trigger sr-button mt-5" href="#blog">Blog</a>
           </div>
         </div>
       </div>
     </section>
-
-    <section id="highlight">
-      <div class="container">
+    <section class="bg-dark text-white masthead" id="blog">
+      <div class="container text-center">
+          <h2 class="section-heading mb-5">Blog</h2>
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
-            <hr class="my-4">
+          <div id="blog-lead" class="col-lg-8 text-center bg-secondary mx-auto">
+            <h3>Today's Featured Article</h3><hr>
+            <h5 class="text-left">How Today's DBAs are Facing the Technology of Tomorrow</h5><br>
+            <p class="text-left">
+                &nbsp;&nbsp;&nbsp;&nbsp;Yesterday I had the privelage to sit among
+                Sacramento's top data talent. I learned about the struggles they
+                face within their own field and how they are rising to meet the 
+                challenges of Microsoft as a Service...
+            </p>
+              <a class="btn btn-xl sr-button mt-5" href="Posts/20180606.html">Read More</a>
           </div>
         </div>
-      </div>
-      <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-bolt text-primary mb-3 sr-icon-1"></i>
-              <h3 class="mb-3">Agile</h3>
-              <p class="text-muted mb-0">Proven ability to drive a project from a simple idea into an implementation.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-coffee text-primary mb-3 sr-icon-2"></i>
-              <h3 class="mb-3">Scrupulous</h3>
-              <p class="text-muted mb-0">Detail-oriented mentality and an talent for picking up new skills quickly.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
-              <h3 class="mb-3">Driven</h3>
-              <p class="text-muted mb-0">Constantly searching for new trends in technology to stay ahead of the curve.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
-              <h3 class="mb-3">Passionate</h3>
-              <p class="text-muted mb-0">Lucky to love what I do and a passion to share that love with others.</p>
-            </div>
+          <div class="col-8 mx-auto text-center">
+            <a class="btn btn-xl btn-dark sr-button mt-5" href="Blog/blog.html">Blog Home</a>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
+    <section class="p-0" id="projects">
+      <div class="container-fluid p-0 m-0">
         <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="#portfolio">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Solutions Engineer
-                  </div>
-                  <div class="project-name">
-                    Data Virtuality, Intl.
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="#portfolio">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Business Data Analyst
-                  </div>
-                  <div class="project-name">
-                     My Equity Comp, Folsom CA
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-              <a class="portfolio-box" href="#portfolio">
-                <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-                <div class="portfolio-box-caption">
-                  <div class="portfolio-box-caption-content">
-                    <div class="project-category text-faded">
-                        Database Contractor
-                      </div>
-                    <div class="project-name">
-                        Visit California, Sacramento CA
-                      </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="#portfolio">
-              <img class="img-fluid img-thumb" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                      Quality Assurance, DBA
-                    </div>
-                  <div class="project-name">
-                      Evena Medical, Roseville CA
-                    </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="#portfolio">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                      Data Analyst
-                    </div>
-                  <div class="project-name">
-                      Nimbus Mines
-                    </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="/Projects/theoffice.html">
+          <div class="col-4">
+            <!--<a class="portfolio-box" href="/Projects/theoffice.html">-->
+              <a class="portfolio-box" href="/Projects/index.html">
               <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
               <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Spotlight Personal Project
-                  </div>
-                  <div class="project-name">
+                <div class="portfolio-box-caption-content text-bold">
+                  <p class="text-bold">
                     Random Quote Generator
-                  </div>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-4">
+              <a class="portfolio-box" class="bg-primary" href="https://github.com/abeeb02/golang_RESTAPI">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <p class="text-bold">Go REST API</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-4">
+              <a class="portfolio-box" href="https://github.com/abeeb02/BankATM">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <p class="text-bold">Java ATM</p>
                 </div>
               </div>
             </a>
@@ -244,53 +176,34 @@
         </div>
       </div>
     </section>
-
-    <section class="bg-dark text-white" id="blog">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-6">
-            <h2>Read More on the Blog</h2>
-              <div class="container text-left text-faded" style="margin:20px;">
-                  <h4>How Today's DBAs are Facing the Technology of Tomorrow</h4>
-                  <p>
-                          Yesterday I had the privelage to sit among
-                          Sacramento's top data talent. I learned about the struggles they
-                          face within their own field and how they are rising to meet the 
-                          challenges of Microsoft as a Service.
-                  </p>
-              </div>
-              <a class="btn btn-light btn-xl sr-button" href="Posts/20180606.html">Blog</a>
-          </div>
-          <div class="col-6">
-              <h2 class="mb-4">Follow Me on Social Media</h2>
-              <a class="btn btn-light btn-xl sr-button" href="https://www.linkedin.com/in/amber-beebe-2a540296/"><i class="fa fa-2x fa-linkedin"></i></a>
-              <a class="btn btn-light btn-xl sr-button" href="https://github.com/abeeb02"><i class="fas fa-2x fa-code-fork"></i></a>
-              <a class="btn btn-light btn-xl sr-button" href="https://codepen.io/amberbeebe916"><i class="fa fa-2x fa-codepen"></i></a>
-              <a class="btn btn-light btn-xl sr-button" href="https://twitter.com/amberinobambino"><i class="fa fa-2x fa-twitter"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
+    <section id="contact" class="bg-primary">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Keep In Touch!</h2>
+          <div class="col-lg-8 col-xs-12 mx-auto text-center">
+            <h2 class="section-heading">Contact</h2>
             <hr class="my-4">
             <p class="mb-5">Ready to start your next project with me? That's great! Send me an email and I will get back to you as soon as possible!</p>
+            <a class="bounce" href="mailto:amberbeebe@abwebdesigned.com">
+                <i class="fas fa-envelope fa-3x sr-contact-2"></i>
+            </a>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12 mr-auto text-center">
-            <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
-            <p>
-              <a href="mailto:amberbeebe@abwebdesigned.com">amberbeebe@abwebdesigned.com</a>
-            </p>
-          </div>
         </div>
       </div>
     </section>
+
+    <footer class="py-3 bg-dark">
+        <div class="container mx-auto">
+            <p class="m-0 text-center text-white">
+              <a class="btn btn-md btn" href="https://www.linkedin.com/in/amber-beebe-2a540296/"><i class="fa fa-2x fa-linkedin text-light"></i></a>
+              <a class="btn btn-md" href="https://www.github.com/abeeb02/"><i class="fa fa-2x fa-code-fork text-light"></i></a>
+              <a class="btn btn-md" href="https://www.codepen.io/amberbeebe916/"><i class="fa fa-2x fa-codepen text-light"></i></a>
+              <a class="btn btn-md" href="https://www.facebook.com/abwebdesigned/"><i class="fa fa-2x fa-facebook text-light"></i></a>
+              <a class="btn btn-md" href="https://www.twitter.com/in/amberinobambino/"><i class="fa fa-2x fa-twitter text-light"></i></a>
+          </p>
+        </div>
+        <!-- /.container -->
+      </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -303,25 +216,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.js"></script>
-    <style>
-      a.sr-button {
-        margin-left: 5px;
-        margin-right: 5px;
-      }
-        img.img-fluid {
-          opacity: .8 !important;
-        }
-          #profile {
-            height: 15em;
-            border-radius: 50%;
-            float: right;
-            border: 3px solid #fff;
-            margin: 5px;
-          }
-          .portfolio-box:hover {
-            cursor:auto;
-          }
-      </style>
   </body>
 
 </html>

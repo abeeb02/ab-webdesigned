@@ -4,51 +4,43 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
+@font-face{
+  font-family: Pastelyn;
+  src: url(Pastelyn-Handwritten-Font/Fonts/Pastelyn.ttf);
+}
+
 body,
 html {
   width: 100%;
   height: 100%;
 }
 
-body {
+body, a, p, .btn {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-}
-
-hr {
-  max-width: 50px;
-  border-width: 3px;
-  border-color: #f64c72;
-}
-
-hr.light {
-  border-color: #fff;
+  font-weight: 200 !important;
+  letter-spacing: 2px !important;
 }
 
 a {
-  color: #2F2FA2;
+  color: #373F47;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #2F2FA2;
+  color: #A07178;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+h1, h2 {
+  font-family: Pastelyn;
 }
 
 .bg-primary {
-  background-color: #2F2FA2 !important;
+  background-color: rgba(230, 204, 190) !important;
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #373F47 !important;
 }
 
 .text-faded {
@@ -61,6 +53,7 @@ section {
 
 .section-heading {
   margin-top: 0;
+  font-size: 72px;
 }
 
 ::-moz-selection {
@@ -101,12 +94,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #2F2FA2;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #A07178;
+  font-family: Pastelyn;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #2F2FA2;
+  color: #A07178;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -114,17 +107,17 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: #A07178;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #2F2FA2;
+  color: #A07178;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #2F2FA2 !important;
+  color: #A07178 !important;
   background-color: transparent;
 }
 
@@ -135,8 +128,8 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    border-color: transparent;
-    background-color: transparent;
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: rgba(255, 255, 255, .4);
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -149,29 +142,29 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: #373F47;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #373F47;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #2F2FA2;
+    color: #A07178;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #2F2FA2;
+    color: #A07178;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    color: #373F47;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #2F2FA2;
+    color: #A07178;
   }
 }
 
@@ -287,7 +280,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #2F2FA2 !important;
+  color: #A07178 !important;
 }
 
 .btn {
@@ -303,16 +296,122 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #2F2FA2;
-  border-color: #2F2FA2;
+  background-color: #A07178;
+  border-color: #A07178;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #2F2FA2 !important;
+  background-color: #A07178 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(47, 47, 162, 0.5) !important;
-  box-shadow: 0 0 0 0.2rem rgba(47, 47, 162, 0.5) !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(230, 204, 190, .5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(230, 204, 190, .5) !important;
+}
+
+#title {
+  font-size: 150px;
+}
+
+#about-lead {
+  background-color: rgba(230, 204, 190, .7) !important;
+  color: #373F47 !important;
+  padding: 50px;
+  font-weight: lighter !important;
+  font-size: large;
+  letter-spacing: 2px;
+}
+
+#profile {
+  border-radius: 50%;
+  float: right;
+  margin: 10px;
+  opacity: .8;
+}
+
+#about {
+  background-image: none !important;
+  background-color: #373F47 !important;
+}
+
+#personal-lead {
+  font-weight: lighter !important;
+  letter-spacing: 2px;
+}
+
+#blog {
+  color: #373F47 !important;
+  background-color: white !important;
+}
+
+#blog.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/blog-header.jpg");
+  background-position: center center;
+}
+
+#blog-lead {
+  padding: 50px;
+  background-color: rgb(199, 201, 216, .3);
+  color: #373F47 !important;
+  font-weight: lighter !important;
+  letter-spacing: 2px;
+}
+
+#contact {
+  color: #373F47 !important;
+  background-color: rgba(230, 204, 190, .7);
+}
+
+a.sr-button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+  img.img-fluid {
+    opacity: .8 !important;
+  }
+    #profile {
+      height: 15em;
+    }
+    .portfolio-box:hover {
+      cursor:auto;
+    }
+
+    .btn.bounce {
+      margin-top: 100px;
+      font-size: 30px;
+      color: #373F47 !important;
+    }
+
+    .portfolio-box-caption {
+      font-weight: lighter !important;
+      letter-spacing: 2px;
+    }
+
+.bounce {
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
 }

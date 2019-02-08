@@ -76,7 +76,7 @@
   /*Magnific popup calls
   $('.popup-gallery').dialog({
     delegate: 'a',
-    type: 'ajax',
+    type: 'image',
     tLoading: 'Loading description #%curr%...',
     mainClass: 'mfp-img-mobile',
     gallery: {
